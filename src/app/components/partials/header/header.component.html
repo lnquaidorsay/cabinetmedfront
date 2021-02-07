@@ -1,13 +1,9 @@
-<!-- <app-header></app-header>
-<router-outlet></router-outlet>
-<app-footer></app-footer> -->
-
 <div class='container p-0 mt-2 rounded perso_shadow'>
     <!-- Header du site -->
     <header class='bg-dark text-white rounded-top perso_policeTitre'>
         <div class='row align-items-center m-0'>
             <div class='col-2 p-2 text-center'>
-                <a href='#'>
+                <a routerLink="/patient">
                     <img src='../../assets/female-doctor.png' class='rounded-circle img-fluid perso_logoSize' alt='logo du site' />
                 </a>
             </div>
@@ -22,10 +18,5 @@
     </header>
     <!-- Contenu du site -->
     <div class='border p-1 perso_minCorpSize px-5'>
-        <router-outlet></router-outlet>
     </div>
     <!-- footer du site -->
-    <footer class='bg-dark text-center text-white rounded-bottom'>
-        <p class='p-2'>&copy; Cabinet médical Castanet 2021 </p>      
-    </footer>
-</div>
